@@ -1,48 +1,48 @@
+import React from 'react';
+
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
-// All external links, personal info, and content in one place.
-// Update this file to change any content across the entire site.
+// portfolioData.js — Centralized configuration for BENIEL J's Portfolio
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Beniel J",
+  firstName: "Beniel",
+  brandName: "Beniel J",
+  title: "AI Engineer & Full Stack Developer",
+  location: "Tirunelveli, Tamil Nadu, India",
+  phone: "+91 89250 22181",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "benielj24@gmail.com",
+    secondary: "",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "Dynamic Computer Science Engineering student with strong foundations in software development and an evolving focus on Generative AI pipelines, AI agents, and systems optimization. Skilled in building scalable full-stack applications, optimizing database workflows, and leveraging machine learning techniques.",
+  resumeUrl: "/Beniel_J_Resume.pdf", // Update with your actual deployment asset path
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com/beniel-j",
+  linkedin: "https://www.linkedin.com/in/beniel-j-049b26298",
+  leetcode: "https://leetcode.com/u/benielj/",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Beniel J",
+  titleHighlight: "AI Engineer & Full Stack Developer",
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
+    "Building scalable full-stack applications, Agentic AI pipelines, and high-performance intelligent systems.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:benielj24@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Beniel,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Beniel_J_Resume.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Beniel J</span>, an AI Software Engineer based in Tamil Nadu, India. I specialize in translating complex engineering logic and predictive ensemble machine learning pipelines into functional, high-performance web solutions.`,
+  techStack: ["Generative AI", "MERN Stack", "FastAPI & Python", "Agentic Frameworks"],
 };
 
 export const skillsContent = {
@@ -53,244 +53,227 @@ export const skillsContent = {
   cards: [
     {
       number: "01",
-      title: "Research",
-      text: "I start by understanding goals, user requirements, and technical constraints to lay a rock-solid foundation for the project.",
+      title: "Research & Logic",
+      text: "Understanding system requirements, algorithmic constraints, and model specifications to lay a rock-solid mathematical and logical foundation.",
     },
     {
       number: "02",
-      title: "Design",
-      text: "Crafting clean architecture, intuitive interfaces, and pixel-perfect wireframes that guarantee an engaging and accessible user experience.",
+      title: "System Architecture",
+      text: "Designing modular backends, robust database schemas, and intelligent pipeline workflows using RAG or agentic loops.",
     },
     {
       number: "03",
-      title: "Develop",
-      text: "Building scalable backends and responsive frontends using modern tech stacks and best practices.",
+      title: "Development",
+      text: "Writing clean, efficient code for secure RESTful APIs, responsive interfaces, and embedded edge devices like ESP32/ESP8266.",
     },
     {
       number: "04",
-      title: "Deploy",
-      text: "Rigorous testing, performance optimization, and seamless deployment to cloud infrastructure, followed by ongoing support.",
+      title: "Optimization & Ship",
+      text: "Optimizing queries, maximizing responsiveness across devices, running model evaluation, and deploying securely to modern cloud endpoints.",
     },
   ],
-  endText: "Ready to ship!",
+  endText: "Ready to compile!",
 };
 
-// Brand New Technical Skills Data
+// Comprehensive 6-Category Technical Skills Grid
 export const technicalSkills = {
   categories: [
     {
       title: "Programming Languages",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
+        { name: "Java", level: 92 },
+        { name: "Python", level: 88 },
+        { name: "C / C++", level: 85 },
+        { name: "SQL", level: 90 }
       ]
     },
     {
-      title: "Full Stack",
+      title: "AI / ML & Generative AI",
       skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
+        { name: "Agentic AI", level: 90 },
+        { name: "Prompt Engineering", level: 90 },
+        { name: "LangChain & LlamaIndex", level: 88 },
+        { name: "RAG & Vector DBs (ChromaDB)", level: 85 },
+        { name: "Machine Learning Fundamentals", level: 87 }
       ]
     },
     {
-      title: "Backend",
+      title: "Frameworks & Backends",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
+        { name: "React.js", level: 90 },
+        { name: "Node.js", level: 86 },
+        { name: "Express.js", level: 86 },
+        { name: "FastAPI", level: 88 },
+        { name: "Flask", level: 88 },
+        { name: "RESTful APIs", level: 92 }
       ]
     },
     {
-      title: "Databases",
+      title: "Databases & Cloud",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
+        { name: "MySQL", level: 88 },
+        { name: "MongoDB", level: 86 },
+        { name: "Firebase", level: 85 },
+        { name: "AWS (Basic Deployment)", level: 75 }
       ]
     },
     {
-      title: "Tools & Automation",
+      title: "Tools & AI Productivity",
       skills: [
         { name: "Git & GitHub", level: 90 },
         { name: "VS Code", level: 95 },
-        { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
+        { name: "Postman", level: 95 },
+        { name: "Figma (UI/UX Design)", level: 82 },
+        { name: "Ollama / LLM Orchestration", level: 84 }
       ]
     },
     {
-      title: "Computer Science Concepts",
+      title: "Core CS Fundamentals",
       skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
+        { name: "Data Structures & Algorithms", level: 92 },
+        { name: "Object-Oriented Programming", level: 90 },
+        { name: "Database Management Systems (DBMS)", level: 90 },
+        { name: "Operating Systems (OS)", level: 85 },
+        { name: "Computer Networks (CN)", level: 84 }
       ]
     }
   ]
 };
 
-// Brand New Content Creation Data
+// Re-adapted to act as your Research, Paper, and Hackathon Ledger
 export const contentCreation = {
-  badge: "Cinematic Content",
-  heading: "Creative Direction & Cinematic Edits",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
+  badge: "Research & Innovations",
+  heading: "Publications & Hackathon Wins",
+  description: "Bridging peer-reviewed theoretical computer science with competitive software hackathons.",
   categories: [
     {
-      title: "Cinematic Reels",
-      description: "Visual stories crafted with cinematic lighting, premium color grading, and high-impact sound design.",
-      stats: "50+ Reels Created",
-      icon: "🎥"
+      title: "VISAI’26 National Hackathon",
+      description: "Awarded 2nd Prize by Vel Tech for solving a mission-critical transit optimization statement provided directly by Chennai Metro Rail Limited.",
+      stats: "2nd Prize / CMRL",
+      icon: "trophy",
+      link: "https://www.linkedin.com/posts/beniel-j-049b26298_hackathon-visai-smartcities-activity-7436261457241100288-IA6t?utm_source=share&utm_medium=member_android&rcm=ACoAAEgRzrkBAeNku4guyRNuphsECXOSOmRqvl0" 
     },
     {
-      title: "Travel Videos",
-      description: "Immersive travel vlogs and aesthetic edits capturing cultures, landscapes, and visual rhythms.",
-      stats: "15+ Countries/Cities",
-      icon: "✈️"
+      title: "Jury Special Award",
+      description: "Recognized for high-caliber architecture, UI integration, and immediate market viability during the annual institutional sprint evaluation.",
+      stats: "AURA’25 Internal Hackathon",
+      icon: "award",
+      link: "https://www.linkedin.com/posts/beniel-j-049b26298_hackathonwinner-innovation-technology-activity-7313455345996021763-H6r-?utm_source=share&utm_medium=member_android&rcm=ACoAAEgRzrkBAeNku4guyRNuphsECXOSOmRqvl0" 
     },
     {
-      title: "Educational Reels",
-      description: "Fast-paced tech tutorials and educational content designed to simplify coding and software engineering.",
-      stats: "100k+ Views",
-      icon: "🧠"
+      title: "Conference Research Presentations",
+      description: "Presented 3 distinct technical research works covering AI Ethics & Responsible AI (ICRTAC 2024), Blue Eye Tech in Patient Care, and Nuclear Plant Cyber Defense (IVCCCCP).",
+      stats: "4 Papers Contributed",
+      icon: "presentation",
+      link: "https://www.linkedin.com/posts/beniel-j-049b26298_cybersecurity-digitalassets-nuclearpower-activity-7217154950596845569-1tMm?utm_source=share&utm_medium=member_android&rcm=ACoAAEgRzrkBAeNku4guyRNuphsECXOSOmRqvl0" 
     },
     {
-      title: "My Own Creative Edits",
-      description: "Experimental transitions, 3D overlays, and trendsetting visual effects that push creative bounds.",
-      stats: "Personal Projects",
-      icon: "⚡"
+      title: "Technical Paper Laurels",
+      description: "Secured Top placements in competitive paper presentation competitions including 1st Prize at EXCENTRA’24 (GCE Tirunelveli) and 2nd Prize at GYAN MITRA’25 (Mepco Schlenk).",
+      stats: "Multiple 1st/2nd Wins",
+      icon: "zap",
+      link: "https://www.linkedin.com/posts/beniel-j-049b26298_paperpresentation-achievement-iot-activity-7299343524603314176-2XqA?utm_source=share&utm_medium=member_android&rcm=ACoAAEgRzrkBAeNku4guyRNuphsECXOSOmRqvl0" 
     }
   ]
 };
 
-// Brand New Leadership Data
+// Leadership Data
 export const leadershipList = [
   {
-    title: "IEEE Madhya Pradesh Section (Social Media Team)",
-    description: "Managed and coordinated digital content, driving audience engagement and designing interactive visual campaigns for tech events.",
-    role: "Social Media Coordinator",
-    badge: "Volunteer"
-  },
-  {
-    title: "Team Coordinator – Go-Kart International Racing 2K25",
-    description: "Led multi-disciplinary teams in project management, budget control, and logistics coordination for a high-profile international racing event.",
-    role: "Team Coordinator",
+    title: "FXEC Coding Club",
+    description: "Coordinated advanced algorithm development tracks, managed routine technical activities, and organized peer student competitive coding engagement sessions.",
+    role: "Program Coordinator",
     badge: "Leadership"
   },
   {
-    title: "5-Day MOE IDE Bootcamp, Roorkee",
-    description: "Participated in an intensive Innovation, Design, and Entrepreneurship Bootcamp organized by the Ministry of Education at IIT Roorkee.",
-    role: "Bootcamp Graduate",
-    badge: "Innovation"
+    title: "Workshop: From Beginner to Builder: Chatbots & AI Agents",
+    description: "Conducted an intensive, hands-on architectural workshop mentoring 50+ junior students on prompt engineering schemas, LLM configurations, and Agentic workflows.",
+    role: "Workshop Trainer",
+    badge: "Mentorship"
   },
   {
-    title: "Hosted INFORIA Tech Summit Hackathon",
-    description: "Organized and hosted the flagship hackathon, managing registrations, mentoring participant teams, and coordinating judge evaluations.",
-    role: "Hackathon Organizer",
-    badge: "Co-Curricular"
-  },
-  {
-    title: "Event Coordinator & Anchoring – INFORIA 2K25",
-    description: "Coordinated technical events and served as the main stage anchor, speaking in front of large crowds and managing the summit flow.",
-    role: "Stage Anchor & Coordinator",
-    badge: "Public Speaking"
+    title: "One Life Job Fair",
+    description: "Organized systemic routing layout, handled rapid operational logistics, and synchronized candidate tracking for large-scale corporate recruitment blocks.",
+    role: "Core Logistics Volunteer",
+    badge: "Volunteering"
   }
 ];
 
-// Brand New Internships Data
+// Internships Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
+    organization: "Zidio Development",
+    role: "MERN Stack Developer Intern",
+    duration: "Jun 2025 – Jul 2025",
+    skills: ["Full Stack Engineering", "API Optimization", "Data Aggregation Pipelines", "Dashboard Accessibility"],
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Excel Analytics"]
   },
   {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
-  },
-  {
-    organization: "CollegeTips.in",
+    organization: "InternPe",
     role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
+    duration: "Jun 2025 – Jul 2025",
+    skills: ["Mobile Optimization", "Real-Time Subscriptions", "Client-Side Pipeline Integration"],
+    tech: ["JavaScript", "Firebase", "RESTful APIs", "Responsive Frameworks"]
+  },
+  {
+    organization: "Infosmite",
+    role: "UI/UX Designer Intern",
+    duration: "Jun 2024 – Jul 2024",
+    skills: ["Design Thinking Principles", "High-Fidelity Wireframes", "Interactive Prototyping"],
+    tech: ["Figma Design Workspace", "Layout Usability Auditing"]
   }
 ];
 
-// Brand New Soft Skills Data
+// Soft Skills Data
 export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
-  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
+  { name: "Technical Leadership", icon: "crown", desc: "Commanding club programming blocks, running student sprints, and guiding technical project completion." },
+  { name: "Knowledge Delivery", icon: "mic", desc: "Articulating complex backend configurations, training large assemblies, and presenting peer-reviewed research papers." },
+  { name: "Design Thinking", icon: "palette", desc: "Applying analytical UI/UX rules to lower cognitive user-friction, holding a 98% NPTEL HCI Elite badge." },
+  { name: "Analytical Problem Solving", icon: "puzzle", desc: "Breaking dense architectural specifications into modular, scalable, and high-performance algorithms." },
+  { name: "Team Alignment", icon: "users", desc: "Coordinating development workloads across disciplines, aligning hardware edge telemetry with cloud interfaces." },
+  { name: "Adaptability", icon: "sparkles", desc: "Rapidly integrating emerging toolchains, from Agentic LangChain architectures to embedded firmware logic." },
+  { name: "Operational Logistics", icon: "clock", desc: "Balancing precise academic metrics (9.48 CGPA) with managing hackathons and community code operations." },
+  { name: "System Optimization", icon: "zap", desc: "Profiling running applications to accelerate queries, reduce latency, and enforce mobile responsiveness." }
 ];
 
 export const projects = [
   {
-    id: "foodmesh",
+    id: "cris-agriculture",
     number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    badge: "Flagship Project",
+    title: "Crop Rotation Intelligence System (CRIS)",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
-    techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
-    ],
+      "An intelligent agricultural advisory platform. Built an advanced multi-model stacking ensemble framework combining CatBoost, XGBoost, and LightGBM models to process soil and ambient telemetry from ESP32 edge components. Delivers sub-second, highly optimized predictive crop rotation tracks via a responsive React interface powered by a secure Python Flask backend workflow.",
+    techTags: ["React.js", "Python", "Flask", "CatBoost", "XGBoost", "LightGBM", "ESP32", "IoT"],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: "https://github.com/beniel-j/Crop-Rotation-Intelligence-System-CRIS-",
       demo: null,
     },
     isFlagship: true,
   },
   {
-    id: "karigar",
+    id: "digital-storytelling",
     number: "02",
-    badge: null,
-    title: "Karigar",
+    badge: "MERN Stack Production",
+    title: "Digital Storytelling Platform",
     description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+      "A complete full-stack content publishing web application developed to handle robust media postings. Authored over 10 optimized REST API endpoints to perform safe, secure database CRUD transactions, handling complex relational logic seamlessly with structured MongoDB storage.",
+    techTags: ["MongoDB", "Express.js", "React.js", "Node.js", "RESTful APIs"],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
+      github: "https://github.com/beniel-j/lumeo-digital-storytelling-platform",
     },
     isFlagship: false,
   },
   {
-    id: "sentiment-analysis",
+    id: "smart-street-lighting",
     number: "03",
-    badge: null,
-    title: "AI-Powered Sentiment Analysis",
+    badge: "Hardware & Edge Systems",
+    title: "Smart Street Lighting System",
     description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+      "An automated IoT infrastructure project centered on energy conservation. Configured adaptive microchip automated lighting loops triggered by light-dependent sensors and hardware transit tracking. Deployed MOSFET circuits to regulate variable power delivery, resulting in a verified 40% reduction in municipal electrical energy consumption.",
+    techTags: ["ESP8266", "Arduino", "LDR Sensor", "MOSFET Electronics", "Automation"],
     links: {
-      github: "#", // Update when available
+      github: "https://github.com/beniel-j/smart-street-lighting-iot",
     },
     isFlagship: false,
   },
@@ -299,61 +282,59 @@ export const projects = [
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
+      name: "Human Computer Interaction (98% - Topper)",
+      issuer: "NPTEL Elite",
+      icon: "🎨",
     },
     {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
+      name: "Introduction to Internet of Things (92% - Topper)",
+      issuer: "NPTEL Elite",
+      icon: "🌐",
+    },
+    {
+      name: "Java Foundations Credentials",
+      issuer: "Oracle Academy",
       icon: "☕",
     },
     {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
+      name: "AWS Cloud Practitioner Path",
+      issuer: "AWS Skill Builder",
+      icon: "☁️",
     },
     {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
+      name: "MongoDB Developer Foundations",
+      issuer: "MongoDB University",
+      icon: "🍃",
     },
     {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
-    },
-    {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
+      name: "CCNA: Introduction to Networks",
+      issuer: "Cisco Networking Academy",
+      icon: "🔒",
     },
   ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
+  viewAllUrl: "https://drive.google.com/file/d/1iUYvLW7zihm237DMt9m9eE-vHzQ3jdEN/view?usp=sharing", // Update with a public Link if needed
 };
 
 export const education = {
-  degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
+  degree: "Bachelor of Engineering – Computer Science & Engineering",
+  institution: "Francis Xavier Engineering College",
+  cgpa: "9.48",
   graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  twelfth: "Higher Secondary Certificate (HSC) – 88.8%",
+  tenth: "10th Grade – 90.8%",
 };
 
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "AI Systems Architecture · Full Stack Development",
+    "Agentic Pipelines · Python · MERN Stack",
+    "Optimized Edge Analytics & Systems Automation",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "B.E. CSE · CGPA 9.48",
+  copyright: `© ${new Date().getFullYear()} Beniel J | Built with React`,
 };
 
 // EmailJS Configuration
-// Will read directly from environment variables in Vite (starting with VITE_)
 export const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || "YOUR_EMAILJS_SERVICE_ID",
   templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "YOUR_EMAILJS_TEMPLATE_ID",

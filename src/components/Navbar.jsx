@@ -20,7 +20,8 @@ const Navbar = () => {
 
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
 
-  const hireMeMailto = `mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
+  // Updated to point directly to Beniel's email address and profile context
+  const hireMeMailto = `mailto:benielj24@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Beniel,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
 
   return (
     <nav 

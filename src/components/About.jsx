@@ -1,5 +1,5 @@
 import React from 'react';
-import stackImage from '../assets/about/yusuf-avatar.png';
+import stackImage from '../assets/about/beniel_avatar.png';
 import { aboutContent } from '../data/portfolioData';
 
 // Tech stack SVG icons rendered inline for crisp rendering
@@ -14,13 +14,12 @@ const JavaIcon = () => (
   </div>
 );
 
-const SpringBootIcon = () => (
+const NodeJsIcon = () => (
   <div className="flex flex-col items-center gap-2">
     <svg className="w-16 h-16 md:w-20 md:h-20" viewBox="0 0 128 128">
-      <path fill="#6DB33F" d="M116.452 6.643a59.104 59.104 0 01-6.837 12.136A64.249 64.249 0 0064.205-.026C28.984-.026 0 28.958 0 64.179c0 35.22 28.984 64.205 64.205 64.205 35.221 0 64.179-28.985 64.179-64.205 0-10.632-2.624-20.672-7.26-29.508a59.03 59.03 0 01-4.672-8.028zm-53.478 99.75c-23.407 0-42.392-18.985-42.392-42.393 0-23.407 18.985-42.392 42.392-42.392 4.016 0 7.907.563 11.591 1.607l-4.756 8.229a34.498 34.498 0 00-6.835-.683c-19.152 0-34.673 15.521-34.673 34.673 0 19.153 15.521 34.674 34.673 34.674 12.322 0 23.146-6.443 29.29-16.146l7.621 4.397c-7.966 12.614-22.043 20.984-37.911 20.034z"/>
-      <path fill="#6DB33F" d="M96.118 56.392l-32.22 18.604-8.816-15.273 32.221-18.604z"/>
+      <path fill="#339933" d="M116.3 33.5L67.6 5.4c-2.2-1.3-5-1.3-7.2 0L11.7 33.5c-2.2 1.3-3.6 3.6-3.6 6.1v56.3c0 2.5 1.4 4.8 3.6 6.1l48.7 28.1c2.2 1.3 5 1.3 7.2 0l48.7-28.1c2.2-1.3 3.6-3.6 3.6-6.1V39.6c0-2.5-1.4-4.8-3.6-6.1zM64 14.8l41.2 23.8v41.7L64 56.5V14.8zm-5.4 97.4L17.4 88.4V46.7L58.6 70.5v41.7z"/>
     </svg>
-    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">Spring Boot</span>
+    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">Node.js</span>
   </div>
 );
 
@@ -39,7 +38,7 @@ const MernIcon = () => (
       {/* Node.js Hexagon in top right */}
       <path fill="#339933" d="M98 32l-12-7-12 7v14l12 7 12-7V32zm-12 1.5l8 4.6v9.3l-8 4.6-8-4.6v-9.3l8-4.6z" opacity="0.9" />
     </svg>
-    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">MERN Stack</span>
+    <span className="text-xs font-bold text-white/70 uppercase tracking-wider">React Js</span>
   </div>
 );
 
@@ -91,7 +90,7 @@ const About = () => {
               <JavaIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="450" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <SpringBootIcon />
+              <NodeJsIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="600" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
               <MernIcon />
