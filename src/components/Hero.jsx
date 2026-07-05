@@ -69,12 +69,13 @@ const Hero = () => {
             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
           </svg>
         </a>
+        {/* Restored LeetCode / Code Icon for Large Screens */}
         <a 
           href={socialLinks.leetcode} 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-white/60 hover:text-[#00dbff] transition-all duration-300 transform hover:scale-125"
-          aria-label="Coding Profile"
+          aria-label="LeetCode Profile"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
             <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
@@ -99,7 +100,8 @@ const Hero = () => {
             <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white" aria-label="LinkedIn">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
             </a>
-            <a href={socialLinks.leetcode} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#00dbff]" aria-label="Coding Profile">
+            {/* Restored LeetCode / Code Icon for Mobile Devices */}
+            <a href={socialLinks.leetcode} target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#00dbff]" aria-label="LeetCode Profile">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                 <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
               </svg>
@@ -129,7 +131,6 @@ const Hero = () => {
             data-aos-delay="400"
             className="flex flex-row flex-wrap items-center gap-3 w-full"
           >
-            {/* Primary Button */}
             <a 
               href={heroContent.ctaPrimary.href}
               className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-md"
@@ -137,7 +138,6 @@ const Hero = () => {
               {heroContent.ctaPrimary.text}
             </a>
             
-            {/* Secondary Button - Glassmorphism style */}
             <a 
               href={heroContent.ctaSecondary.href}
               className="px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full bg-black/40 border border-white text-white font-semibold hover:bg-black/60 transition-all duration-300 backdrop-blur-md"
@@ -145,7 +145,6 @@ const Hero = () => {
               {heroContent.ctaSecondary.text}
             </a>
 
-            {/* Resume Download Button - Fixed to map the imported asset value */}
             <a 
               href="/Beniel_J_Resume.pdf" 
               download="Beniel_J_Resume.pdf"
@@ -168,12 +167,10 @@ const Hero = () => {
         >
           <div className="w-12 h-12 md:w-20 md:h-20 rounded-full border border-white/30 bg-black/20 backdrop-blur-md flex justify-center items-center group-hover:scale-110 group-hover:bg-[#ff2a2a] transition-all duration-500 shadow-[0_0_30px_rgba(255,255,255,0.1)] group-hover:shadow-[0_0_40px_rgba(255,42,42,0.6)]">
             {!isPlaying || isMuted ? (
-              // Play Icon
               <svg className="w-5 h-5 md:w-8 md:h-8 text-white ml-0.5 md:ml-1" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
             ) : (
-              // Pause Icon
               <svg className="w-5 h-5 md:w-8 md:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
               </svg>
